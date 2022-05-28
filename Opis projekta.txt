@@ -1,7 +1,20 @@
+*************************************************************************************************************************************************************************
 Pametni plastenik - opis projekta
-Pametni plastenik predstavlja projekt automatizacije plastenika tipičnih (stantardna konstrukcija) za Bosnu i Hercegovinu, s ciljem olakšavanja poljoprivrednicima, poticanja ljudi na uzgoj za vlastite potrebe i brige za okoliš.
-Bazira se na upotrebi Arduino Mega 2560 i senzorima za nivo vode (modul za Arduino), kvalitet zraka (ARDUINO MQ135), vlažnost tla (modul za ARDUINO), temperaturu i vlažnost (ARDUINO DHT11) i senzora svjetlosti (fotootpornik).
+************************************************************************************************************************************************************************* Pametni plastenik predstavlja projekt automatizacije plastenika tipičnih (stantardna konstrukcija) za Bosnu i Hercegovinu, s ciljem olakšavanja poljoprivrednicima,       poticanja ljudi na uzgoj za vlastite potrebe i brige za okoliš.
+Baziran je na upotrebi Arduino Mega 2560 i senzorima za nivo vode (modul za Arduino), kvalitet zraka (ARDUINO MQ135), vlažnost tla (modul za ARDUINO), temperaturu i     vlažnost (ARDUINO DHT11) i senzora svjetlosti (fotootpornik).
 Koristeći navedeno i samostalno izrađen indikator vjetra, Pametni plastenik izvršava sljedeće funkcije:
-    automatsko otvaranje i zatvaranje - na osnovu indikacije vjetra, temparature i vlažnosti procjenjuju se uslovi u plasteniku i van njega, te se plastenik                 otvara/zatvara kako bi zaštitio konstrukciju i biljke posađene unutar njega
+
+        AUTOMATSKO OTVARANJE I ZATVARANJE - na osnovu indikacije vjetra, temparature i vlažnosti procjenjuju se uslovi u plasteniku i van njega, te se plastenik                 otvara/zatvara kako bi zaštitio konstrukciju i biljke posađene unutar njega (temperatura i vlažnost unutar plastenika ispisuju se na led displeju); otvaranje se         neće izvršiti ukoiko se pomoću fotootpornika utvrdi da je noć
+        
+        AUTMATSKO ZALIJEVANJE - na osvu vlage tla i u zavisnosti od toga koje je doba dana (ciljani trenutak je jutro; određuje se korištenjem fotootpornika) pokreće se         automtsko zalijevanje i traje sve dok se ne postigne idealna vlažnost tla (vlaga tla ispisuje se na led displeju) 
+        
+        NIVO VODE U SPREMNIKU - koristeći senzor nivoa vode prikupljaju se podaci o nivou vode u spremniku, te se isti ispisuju na led displeju alfanumerički i grafički;         u slučaju da je nivo vode 0, odnosno da u spremniku nema vode, zalijevanje prestaje
+        
+        NIVO CO2 - nivo CO2 u plasteniku mjeri se pomoću senzora mq135 i ispisuje se na led displeju uz ocjenu da li je dobar(neštetan) ili ne(štetan)
+*************************************************************************************************************************************************************************
+Benefiti svake od funkcija
+*************************************************************************************************************************************************************************
+
+AUTOMATSKO OTVARANJE I ZATVARANJE - 
     
 
