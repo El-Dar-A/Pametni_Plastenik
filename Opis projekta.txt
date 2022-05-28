@@ -1,7 +1,7 @@
 *************************************************************************************************************************************************************************
 Pametni plastenik - opis projekta
 *************************************************************************************************************************************************************************
-Pametni plastenik predstavlja projekt automatizacije plastenika tipičnih (stantardna konstrukcija) za Bosnu i Hercegovinu, s ciljem olakšavanja poljoprivrednicima,       poticanja ljudi na uzgoj za vlastite potrebe i brige za okoliš.
+Pametni plastenik predstavlja projekt automatizacije plastenika tipičnih (stantardna konstrukcija) za Bosnu i Hercegovinu, s ciljem olakšavanja poljoprivrednicima, poticanja ljudi na uzgoj za vlastite potrebe i brige za okoliš.
 Baziran je na upotrebi Arduino Mega 2560 i senzorima za nivo vode (modul za Arduino), kvalitet zraka (ARDUINO MQ135), vlažnost tla (modul za ARDUINO), temperaturu i     vlažnost (ARDUINO DHT11) i senzora svjetlosti (fotootpornik).
 Koristeći navedeno i samostalno izrađen indikator vjetra, Pametni plastenik izvršava sljedeće funkcije:
 
