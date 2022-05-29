@@ -13,9 +13,6 @@ Koristeći navedeno i samostalno izrađen indikator vjetra, Pametni plastenik iz
         
         NIVO CO2 - nivo CO2 u plasteniku mjeri se pomoću senzora mq135 i ispisuje se na led displeju uz ocjenu da li je dobar(neštetan) ili ne(štetan)
 *************************************************************************************************************************************************************************
-Benefiti svake od funkcija
+Benefiti Pametnog plastenika ili zašto ga koristiti
 *************************************************************************************************************************************************************************
-
-AUTOMATSKO OTVARANJE I ZATVARANJE - 
-    
-
+Sve više ljudi odustaje od plastenika za vlastite potrebe. Kao čest razlog navodi se posao, putovanje i općeniti nedostatak vremena zbog užurbanog načina života. Koristeći se rješenjima pametnog plastenika za odustajanjem ne bi bilo potrebe. Pametni plastenik, svojim funkcijama zalijevanja i otvaranja/zatvaranja, na sebe preuzima dio posla koji je nužno obavljati svakodnevno u različitim vremenskim periodima, ali ostavlja prostor za rad ljudi i uživanje uzgoju i mini zemljoradnji.
