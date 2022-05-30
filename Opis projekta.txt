@@ -1,21 +1,25 @@
 *************************************************************************************************************************************************************************
 Pametni plastenik - opis projekta
 *************************************************************************************************************************************************************************
-Pametni plastenik predstavlja projekt automatizacije plastenika tipičnih (stantardna konstrukcija) za Bosnu i Hercegovinu, s ciljem olakšavanja poljoprivrednicima, poticanja ljudi na uzgoj za vlastite potrebe i brige za okoliš.
+Pametni plastenik predstavlja projekt automatizacije plastenika tipičnih (standardna konstrukcija) za Bosnu i Hercegovinu, s ciljem olakšavanja poljoprivrednicima, poticanja ljudi na uzgoj za vlastite potrebe i brige za okoliš.
 Baziran je na upotrebi Arduino Mega 2560 i senzorima za nivo vode (modul za Arduino), kvalitet zraka (ARDUINO MQ135), vlažnost tla (modul za ARDUINO), temperaturu i     vlažnost (ARDUINO DHT11) i senzora svjetlosti (fotootpornik).
 Koristeći navedeno i samostalno izrađen indikator vjetra, Pametni plastenik izvršava sljedeće funkcije:
 
-        AUTOMATSKO OTVARANJE I ZATVARANJE - na osnovu indikacije vjetra, temparature i vlažnosti procjenjuju se uslovi u plasteniku i van njega, te se plastenik                 otvara/zatvara kako bi zaštitio konstrukciju i biljke posađene unutar njega (temperatura i vlažnost unutar plastenika ispisuju se na led displeju); otvaranje se         neće izvršiti ukoiko se pomoću fotootpornika utvrdi da je noć
+        AUTOMATSKO OTVARANJE I ZATVARANJE - na osnovu indikacije vjetra, temperature i vlažnosti procjenjuju se uslovi u plasteniku i van njega, te se plastenik                 otvara/zatvara kako bi zaštitio konstrukciju i biljke posađene unutar njega (temperatura i vlažnost unutar plastenika ispisuju se na lcd displeju); otvaranje se         neće izvršiti ukoliko se pomoću fotootpornika utvrdi da je noć
         
-        AUTMATSKO ZALIJEVANJE - na osvu vlage tla i u zavisnosti od toga koje je doba dana (ciljani trenutak je jutro; određuje se korištenjem fotootpornika) pokreće se         automtsko zalijevanje i traje sve dok se ne postigne idealna vlažnost tla (vlaga tla ispisuje se na led displeju) 
+        AUTOMATSKO ZALIJEVANJE - na osnovu vlage tla i u zavisnosti od toga koje je doba dana (ciljani trenutak je jutro; određuje se korištenjem fotootpornika) pokreće se         automatsko zalijevanje i traje sve dok se ne postigne idealna vlažnost tla (vlaga tla ispisuje se na lcd displeju) 
         
-        NIVO VODE U SPREMNIKU - koristeći senzor nivoa vode prikupljaju se podaci o nivou vode u spremniku, te se isti ispisuju na led displeju alfanumerički i grafički;         u slučaju da je nivo vode 0, odnosno da u spremniku nema vode, zalijevanje prestaje
+        NIVO VODE U SPREMNIKU - koristeći senzor nivoa vode prikupljaju se podaci o nivou vode u spremniku, te se isti ispisuju na lcd displeju alfanumerički i grafički;         u slučaju da je nivo vode 0, odnosno da u spremniku nema vode, zalijevanje prestaje
         
-        NIVO CO2 - nivo CO2 u plasteniku mjeri se pomoću senzora mq135 i ispisuje se na led displeju uz ocjenu da li je dobar(neštetan) ili ne(štetan)
+        NIVO CO2 - nivo CO2 u plasteniku mjeri se pomoću senzora mq135 i ispisuje se na lcd displeju uz ocjenu da li je dobar(neštetan) ili ne(štetan)
 *************************************************************************************************************************************************************************
 Benefiti Pametnog plastenika ili zašto ga koristiti
 *************************************************************************************************************************************************************************
 Sve više ljudi odustaje od plastenika za vlastite potrebe. Kao čest razlog navodi se posao, putovanje i općeniti nedostatak vremena zbog užurbanog načina života. Koristeći se rješenjima pametnog plastenika za odustajanjem ne bi bilo potrebe. Pametni plastenik, svojim funkcijama zalijevanja i otvaranja/zatvaranja, na sebe preuzima  sporan dio posla koji je nužno obavljati svakodnevno u različitim vremenskim periodima, ali ostavlja prostor za rad ljudi i uživanje uzgoju i mini zemljoradnji.
 Kako su ove funkcije korisne na malim plastenicima za privatnu upotrebu, tako su korisne i na velikim farmama gdje sa istim funkcijama olakšavaju čak i više, obzirom da se radi o velikom broju plastenika.
-Važno je skrenuti pažnju i na to da se automatskim zatvaranje u slučaju (veoma) jakog vjetra štiti konstrukcija plastenika.
-Globalno zagrijavanje usljed povećanog nivo CO2 jedna je od vodećih tema današnjice. Pametni plastenik ima ugrađen senzor za mjerenje nivoa (CO2) unutar plastenika, a izmjereni podaci ispisuju se na led displej. Vlasnik plastenika mogao bi prikupljati podatke o nivo CO2, vlazi i temperaturi. Ti podaci mogli bi se iskoristiti za saznanja o različitim biljnim kulturama; koje biljke i u kakvim uslovima apsorbuju više/manje CO2. Takve podatke držimo kao krisne, a vlasnik plastenika mogao bi imati korist od prikupljenih podataka na način da ih ustupi nekoj istraživačkoj organizaciji u zamjenu za novac ili neku drugu uslugu.
+Važno je skrenuti pažnju i na to da se automatskim zatvaranjem u slučaju (veoma) jakog vjetra štiti konstrukcija plastenika.
+Globalno zagrijavanje usljed povećanog nivoa CO2 jedna je od vodećih tema današnjice. Pametni plastenik ima ugrađen senzor za mjerenje nivoa (CO2) unutar plastenika, a izmjereni podaci ispisuju se na lcd displej. Vlasnik plastenika mogao bi prikupljati podatke o nivo CO2, vlazi i temperaturi. Ti podaci mogli bi se iskoristiti za saznanja o različitim biljnim kulturama; koje biljke i u kakvim uslovima apsorbuju više/manje CO2. Takve podatke držimo kao korisne, a vlasnik plastenika mogao bi imati korist od prikupljenih podataka na način da ih ustupi nekoj istraživačkoj organizaciji u zamjenu za novac ili neku drugu uslugu.
+********************************************************************************************************************************************************************
+*****
+O konstrukciji
+*************************************************************************************************************************************************************************
