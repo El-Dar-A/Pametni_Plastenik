@@ -28,3 +28,5 @@ Ulazna vrata plastenika otvaraju se pomoću tastera, a napravljena su od CD-ROMa
 Indikator vjetra naša je verzija anamometra. Kao baza korišten je DC motor na koji su stavljeni propeleri napravljeni od loptica za stoni tenis i čačkalica. Izlaz motora dovodi se na analogni ulaz Arduina gdje se očitava vrijednost indukovanog napona. Vodeći se tom vrijednošću određuje se jačina vjetra odnosno vrši procjena da li je potrebno zatvoriti plastenik.
 Spremnik za vodu zapravo je ofarbana konzerva od kafe, a pumpa za vodu je stara pumpa iz akvarijuma za ribice.
 Trudeći se da doprinesemo što realističnijem izgledu naše makete, oko plastenika dodali smo umjetnu travu i figurice domaćih životinja.
+
+Električna shema elektroničke ploče i njen PCB nacrtani su u programu Proteus. Crteži su potom bili poslani na izradu, odnosno štampanje elektroničke ploče. Dobivenu elektroničku ploču, zatim smo jetkali pločicu koristeći kupku sastava : 700[ml] destilovane vode + 200[ml] solne kiseline + 150[ml] hidrogena
