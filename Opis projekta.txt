@@ -29,4 +29,19 @@ Indikator vjetra naša je verzija anamometra. Kao baza korišten je DC motor na 
 Spremnik za vodu zapravo je ofarbana konzerva od kafe, a pumpa za vodu je stara pumpa iz akvarijuma za ribice.
 Trudeći se da doprinesemo što realističnijem izgledu naše makete, oko plastenika dodali smo umjetnu travu i figurice domaćih životinja.
 
-Električna shema elektroničke ploče i njen PCB nacrtani su u programu Proteus. Crteži su potom bili poslani na izradu, odnosno štampanje elektroničke ploče. Dobivenu elektroničku ploču, zatim smo jetkali pločicu koristeći kupku sastava : 700[ml] destilovane vode + 200[ml] solne kiseline + 150[ml] hidrogena
+Električna shema elektroničke ploče i njen PCB nacrtani su u programu Proteus (crteže prilažemo uz ostalu dokumentaciju). Crteži su potom bili poslani na izradu, odnosno štampanje elektroničke ploče. Odštampanu elektroničku ploču zatim smo jetkali koristeći kupku sastava : 700[ml] destilovane vode + 200[ml] solne kiseline + 150[ml] hidrogena. Po završetku jetkanja pločicu smo premazali slojem zaštitnog laka i izbušili rupe predviđene za komponente. Na taj način pripremili smo počicu za lemljenje, a nakon lemljenja i za upotrebu. Poseban izazov pri izradi elektroničke ploče bio je povezati ploču sa Arduinom. To smo uspijeli uraditi korištenjem muških i ženskih konektora uz milimetarsko mjerenje razmaka portova na Arduino Mega 2560 i prenošenja dimenzija na PCB. Za analogne ulazne portove kao zaštita dodata je paralelna veza Zenerove diode, otpornika i kondenzatora. (sve komponente navedene su u pasusu Komponente). Elektonička poča napaja se baterijom koja daje napon od 8,5[v].
+
+Kompletu konstrukciju kao i elektroničku ploču izradli smo samostalno. Pažnju smo usmjerili i na to da za maketu koristimo što više stvari koje bi završile kao otpad, vršeći na taj način neki vid reciklaže. (otpad često i nije otpad ili se može iskoristiti barem još jednom, smo na drugačiji način).
+***********************************************************************************************************************************************************************
+Komponente 
+***********************************************************************************************************************************************************************
+
+
+***********************************************************************************************************************************************************************Projekt realizovali :
+Mirens Muratspahić
+Ahmed Čorhusić
+Tarik Smajić
+Eldar Alibegović
+Mentor:
+Said karaosmanović, prof.
+
